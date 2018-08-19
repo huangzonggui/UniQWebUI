@@ -1,0 +1,27 @@
+html{ display:block;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-family: sans-serif;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block }
+img { width: 100%; width: auto\9; height: auto; border: 0; -ms-interpolation-mode: bicubic }
+button, input, select, textarea { margin:0; font-size:100%;vertical-align: middle;font-family: \5FAE\8F6F\96C5\9ED1, "Helvetica Neue", Arial, Helvetica, sans-serif;}
+* { margin: 0; padding: 0; font-style:normal; list-style: none; text-decoration: none; -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; /* For some Androids */}
+body {  font-family: \5FAE\8F6F\96C5\9ED1, "Helvetica Neue", Arial, Helvetica, sans-serif; overflow-x:hidden; max-width:640px; margin: 0 auto; background:#ffffff; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none; color:#333;font-size:12px; font-style:normal;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.search span .text::-webkit-input-placeholder { /* WebKit browsers */
+    color: #e18540;
+}
+.search span .text:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #e18540;
+}
+.search span .text::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #e18540;
+}
+.search span .text:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #e18540;
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--禁止缩放-->
+<meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--全屏显示-->
+<meta content="telephone=no" name="format-detection" />
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- 隐藏状态栏-->
+<link href="css/baes.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>通用预约及轮候系统</title>
+<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+<header>
+<div class="header"><a href="#" class="ico_1"><img src="images/icon_1.png"></a>選取服務</div>
+</header>
+<section>
+<div class="box">
+ <div class="choose">
+   <div class="choose_tab">
+     <ul>
+      <li><a href="#" class="cur">按服務類型</a></li>
+      <li><a href="#" style="border-left:solid 2px #d16a1c;">按地點</a></li>
+     </ul>
+   </div>
+   <div class="choose_box">
+     <div class="choose_1">
+     	<div class="pic"><i><img src="images/3-1.png"></i><em class="j_1"></em><span><b>零售場所</b><font>准照</font></span></div>
+        <div class="pac">
+         <ul>
+         <li class="cho_1"><a href="#"><i><img src="images/3-5.png"></i><em><img src="images/right.png"></em><span><b>新鮮</b><font><b>肉類場所</b>准照</font></span></a></li>
+         <li class="cho_2"><a href="#"><i><img src="images/3-6.png"></i><em><img src="images/right.png"></em><span><b>冰鮮</b><font><b>肉類場所</b>准照</font></span></a></li>
+         <li class="cho_3"><a href="#"><i><img src="images/3-7.png"></i><em><img src="images/right.png"></em><span><b>急凍</b><font><b>肉類場所</b>准照</font></span></a></li>
+        </ul>
+        </div>
+     </div>
+      <div class="choose_2">
+     	<ul>
+         <li class="cho_1"><a href="#"><i><img src="images/3-2.png"></i><em><img src="images/right.png"></em><span><b>廣告</b>及<font><b>招牌</b></font></span></a></li>
+         <li class="cho_2"><a href="#"><i><img src="images/3-3.png"></i><em><img src="images/right.png"></em><span><b>行政</b><font>准照</font></span></a></li>
+         <li class="cho_3"><a href="#"><i><img src="images/3-4.png"></i><em><img src="images/right.png"></em><span><b>飲料</b>及<font><b>飲食場所</b>牌照</font></span></a></li>
+        </ul>
+     </div>    
+   </div>
+ </div>
+</div>
+</section>
+<footer>
+<div class="footer">
+  <div class="foot">
+    <div class="foot_jt"><a href="#" class="jt_left"><img src="images/jt_left.png"></a></div>
+    <div class="foot_tt"></div>
+  </div>
+</div>
+ <script>
+   $(function(){
+      $(".choose_1 .pic").click(function(){
+	     $(this).find("em").toggleClass("j_2"); 
+	     $(this).next(".pac").slideToggle();
+	  })
+   })
+ </script>
+</footer>
+</body>
+</html>
